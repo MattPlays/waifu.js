@@ -1,5 +1,5 @@
-# waifu.js
-> waifu.js utilizes the [waifu.pics](https://waifu.pics/) API to return high quality sfw and nsfw pictures of waifu's
+# @mattplays/waifu.js
+> @mattplays/waifu.js is an **unoffical** wrapper that utilizes the [waifu.pics](https://waifu.pics/) API to return high quality sfw and nsfw pictures of waifu's
 
 # Installation
 ```bash
@@ -17,7 +17,7 @@ Valid NSFW Endpoints are:
 > **waifu, neko, trap, blowjob**
 
 ```javascript
-const {get, getMany} = require("waifu.js");
+const {get, getMany} = require("@mattplays/waifu.js");
 get("sfw", "waifu").then((data) => {
     console.log(url);
     /*
@@ -40,7 +40,7 @@ getMany("sfw", "pat").then((data) => {
 ```
 
 # License
-waifu.js is Licensed under the [MIT License](https://github.com/MattPlays/waifu.js/blob/main/LICENSE).
+@mattplays/waifu.js is Licensed under the [MIT License](https://github.com/MattPlays/waifu.js/blob/main/LICENSE).
 
 Any and **all** data returned from this package is hereby owned by [waifu.pics](https://wafiu.pics, "Waifu Pics Website") and leaves me under **no** obligation to take responsibility for the images returned.
 
