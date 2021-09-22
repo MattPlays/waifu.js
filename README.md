@@ -3,7 +3,7 @@
 
 # Installation
 ```bash
-npm i waifu.js
+npm i @mattplays/waifu.js
 ```
 
 # Usage
