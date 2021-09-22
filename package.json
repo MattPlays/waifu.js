@@ -1,0 +1,28 @@
+{
+  "name": "waifu.js",
+  "version": "1.0.0",
+  "description": "waifu.js utilizes the waifu.pics API to return high quality sfw and nsfw pictures of waifu's",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MattPlays/waifu.js.git"
+  },
+  "keywords": [
+    "waifu-pics",
+    "anime",
+    "blush",
+    "sfw",
+    "nsfw",
+    "API"
+  ],
+  "author": "MattPlays (https://github.com/MattPlays/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MattPlays/waifu.js/issues"
+  },
+  "homepage": "https://github.com/MattPlays/waifu.js#readme",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
