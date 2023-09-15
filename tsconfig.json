@@ -1,7 +1,0 @@
-{
-    "compilerOptions": {
-        "allowJs": false,
-        "allowSyntheticDefaultImports": true,
-        "lib": ["ES2015"]
-    }
-}

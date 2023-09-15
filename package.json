@@ -2,11 +2,13 @@
   "name": "@mattplays/waifu.js",
   "version": "1.0.1",
   "description": "waifu.js is an unoffical wrapper that utilizes the waifu.pics API to return high quality sfw and nsfw pictures of waifu's",
-  "main": "index.js",
-  "types": "index.d.ts",
+  "main": "./src/index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/MattPlays/waifu.js.git"
+  },
+  "scripts": {
+    "test": "jest"
   },
   "keywords": [
     "waifu-pics",
@@ -23,6 +25,9 @@
   },
   "homepage": "https://github.com/MattPlays/waifu.js#readme",
   "dependencies": {
-    "axios": "^0.21.4"
+    "undici": "^5.24.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
   }
 }
